@@ -7,7 +7,7 @@
   tasks: 
   - name: Place custom HTML File
     copy:
-      src: /var/lib/jenkins/workspace/website-update/index.html
+      src: /var/lib/jenkins/workspace/webserver-update/index.html
       dest: /var/www/html/index.html
     become: true
 
